@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.banner-card{
+  width: 100vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: relative;
+  height: 70vh;
+  color: white;
+}
+
+.banner-img{
+  height: 70vh;
+  width: 100vw;
+}
+
+.banner-title{
+  position: absolute;
+  top: 45vh;
+  left: 5vw;
+}
+.banner-text{
+  position:absolute;
+  top: 52vh;
+  left: 5vw;
+  height: 4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+
+@media screen and (max-width:400px) {
+  .banner-card{
+    height: 30vh;
+  }
+  .banner-img{
+    height:30vh;
+  }
+  .banner-title{
+    top: 12vh;
+    left: 5vw;
+  }
+  .banner-text{
+    top: 17vh;
+    left: 5vw;
+  }
+
+}
